@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/viewer.css">
+    <title>JoseVleas_Viewer</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="titulo">JoseVelas IFC.js</div>
+        <button class="btnmenu">
+          <a href="./gallery.html" target="_self">
+            <img class="view-boxes" src="./static/view-boxes.svg" alt="">
+          </a>
+        </button>
+    </header>
+    <nav class="conteiner">
+        <div class="barrasuperior">
+            <h1 class="txtbarrasuperior">Parece que va bien</h1>
+        </div>
+        <div class="ifcnav">
+            <iframe id="model-iframe" src="#" frameborder="0"></iframe>
+        </div>
+        <div class="barraherramientas">
+            <div class="containerherramientas">
+                <div id=toolbar1 class="herr1">
+                    <button id="btn1" class="btnherr">A</button>
+                    <button id="btn2" class="btnherr">B</button>
+                </div>
+                <div id=toolbar2 class="herr2">
+                    <div id="btn1tools" class="herrA">
+                        <button id="tool1" class="btnherr">1</button>
+                        <button id="tool2" class="btnherr">2</button>
+                        <button id="tool3" class="btnherr">3</button>
+                        <button id="tool4" class="btnherr">4</button>
+                        <button id="btnR1" class="btnherr">
+                            <img class="return-menu" src="./static/publish.svg" alt="">
+                        </button>
+                    </div>
+                    <div id="btn2tools" class="herrB">
+                        <button id="tool5" class="btnherr">5</button>
+                        <button id="tool6" class="btnherr">6</button>
+                        <button id="btnR2" class="btnherr">
+                            <img class="return-menu" src="./static/publish.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script type="module" src="viewer.js"></script>
+</body>
+</html>

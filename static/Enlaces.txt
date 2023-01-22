@@ -1,0 +1,36 @@
+1. https://ifcjs.github.io/ifcjs-crash-course/sample-apps/01/
+2. https://ifcjs.github.io/ifcjs-crash-course/sample-apps/02/
+3. https://ifcjs.github.io/ifcjs-crash-course/sample-apps/03/
+4. https://ifcjs.github.io/ifcjs-crash-course/sample-apps/04/
+5. https://ifcjs.github.io/ifcjs-crash-course/sample-apps/05/
+
+    {
+        name: "Projecto 1",
+        image: url(./static/Project1_ifc.jpg),
+        description: "Project 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci.",
+        URL: ./viewer01.html
+    },
+    {
+        name: "Projecto 2",
+        image: url(./static/Project2_ifc.jpg),
+        description: "Project 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci.",
+        URL: ./viewer02.html
+    },
+    {
+        name: "Projecto 3",
+        image: url(./static/Project3_ifc.jpg),
+        description: "Project 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci.",
+        URL: ./viewer03.html
+    },
+    {
+        name: "Projecto 4",
+        image: url(./static/Project4_ifc.jpg),
+        description: "Project 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci.",
+        URL: ./viewer04.html
+    },
+    {
+        name: "Projecto 5",
+        image: url(./static/Project5_ifc.jpg),
+        description: "Project 5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, adipisci.",
+        URL: ./viewer05.html
+    }

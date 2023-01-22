@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+}
+
+.encabezado {
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(150, 150, 150);
+    color: #98fb98;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.btnmenu {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin: 14px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.btnmenu:hover {
+   border-color: rgb(32, 32, 32);
+   background-color: #98fb98;
+}
+/*cambiar el fondo por el relleno del svg*/
+
+.view-boxes {
+    width: 30px;
+    height: 30px;
+}
+
+.titulo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 64px;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .btnmenu {
+        right: 12px;
+    }
+
+    .titulo {
+        justify-content: left;
+     }
+}
+
+h1 {
+    color: black;
+    font-size: 1,5rem;
+}
+
+.descriptionnav {
+    position: relative;
+    top: 64px;
+    text-align: center;
+    max-width: 900px;
+    height: auto;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav {
+    position: relative;
+    max-width: 900px;
+    height: auto;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card00 {
+    width: 200px;
+    height: 112px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    background-image: url(./static/Project_ifc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px 10px 0px rgba(128, 128, 128, 0.5);;
+    overflow: hidden;
+    transition: border, box-shadow, border-radius, width, 1s ease-in-out;
+}
+
+.card-info {
+    position: relative;
+    top: 68px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    transition: transform 1.5s ease-in-out;
+}
+   
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card-bio {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    transition: transform 1.5s ease-in-out;
+}
+
+.card-bio p {
+    padding: 1rem;
+    max-height: 140px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+}
+
+.card00:hover {
+    border-radius: 10px;
+    box-shadow: outset 4px 8px rgba(128, 128, 128, 0.5);
+    width: 300px;
+    height: 200px;
+}
+
+.card00:hover .card-info {
+    transform: translateX(-100%);
+}
+   
+.card00:hover .card-bio {
+    transform: translatex(-200px);
+    opacity: 1;
+}
+
+.ifcbtn {
+    position: absolute;
+    margin: 10px auto;
+    margin-top: 160px;
+    height: 20px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.play {
+    height: 16px;
+    width: 16px;
+}
+
+.ifcbtn:hover {
+    background-color: #98fb98;
+}
+/*incluir botón para definición ampliada en ventana flotante*/
+
+footer {
+    position: fixed;
+    z-index: 1;
+    color: #98fb98;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.logojmv {
+    position: absolute;
+    right: 0;
+    width: 96px;
+    height: 96px;
+    margin: 6px;
+    background-color: rgb(240, 220, 255);
+    border: 2px solid black;
+    border-radius: 48px;
+}
+
+.logojmv:hover {
+    box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+}
