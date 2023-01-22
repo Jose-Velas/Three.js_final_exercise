@@ -1,10 +1,8 @@
 import { projects } from "./projects.js";
 
 const cardConteinier = document.getElementById("card-conteiner");
-const cardProject = document.getElementById("card-project");
 const projectCards = Array.from(cardConteinier.children);
 
-const projectTemplate = projects[0];
 const projectCardTemplate = projectCards[0];
 
 const baseURL = './viewer.html';
