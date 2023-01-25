@@ -1,3 +1,5 @@
+import { projects } from "./projects.js";
+
 import {
   Scene,
   BoxGeometry,
@@ -115,6 +117,15 @@ function animate() {
 }
 
 animate();
+
+// const currentURL = window.location.href;
+// const url = new URL(currentURL);
+// const currentProjectID = url.searchParams.get("id");
+// 
+// const currentProject = projects.find(projects => projects.id === currentProjectID);
+// 
+// const iframe = document.getElementById('model-iframe');
+// iframe.src = currentProject.url
 
 function verHerrA() {
   var estiloA = document.getElementById("btn1");
